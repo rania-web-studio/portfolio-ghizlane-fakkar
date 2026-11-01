@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghizlane Fakkar — Ingénieure Matériaux & Procédés</title>
+  <meta name="description" content="Portfolio de Ghizlane Fakkar, élève ingénieure en Génie des Matériaux et Procédés à la FST Marrakech. À la recherche d'un stage PFE de 4 à 6 mois.">
+  <meta property="og:title" content="Ghizlane Fakkar — Ingénieure Matériaux & Procédés">
+  <meta property="og:description" content="Élève ingénieure en Génie des Matériaux et Procédés · Recherche stage PFE 4–6 mois.">
+  <meta property="og:image" content="assets/ghizlane.jpg">
+  <meta name="theme-color" content="#3b2a22">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%233b2a22'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia' font-size='30' fill='%23e9c9a0'>GF</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">G<span>F</span></a>
+    <div class="nav-right">
+      <nav class="links">
+        <a href="#apropos" data-i18n="nav.about">À propos</a>
+        <a href="#experiences" data-i18n="nav.exp">Expériences</a>
+        <a href="#projets" data-i18n="nav.projects">Projets</a>
+        <a href="#competences" data-i18n="nav.skills">Compétences</a>
+        <a href="#parcours" data-i18n="nav.edu">Parcours</a>
+        <a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Langue / Language">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="menu-btn" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="lattice" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow reveal"><span class="dot"></span> <span data-i18n="hero.eyebrow">Disponible pour un stage PFE · 4 à 6 mois</span></p>
+          <h1 class="reveal">Ghizlane<br><em>Fakkar</em></h1>
+          <p class="role reveal" data-i18n="hero.role">Élève ingénieure en <strong>Génie des Matériaux et Procédés</strong></p>
+          <p class="tagline reveal">
+            <span data-i18n="hero.tagline">Comprendre la matière pour mieux la transformer — de la caractérisation au contrôle, au service de procédés industriels plus</span>
+            <span class="rotator" aria-live="polite">efficaces</span>.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Me contacter</a>
+            <a href="#experiences" class="btn btn-ghost" data-i18n="hero.cta2">Voir mon parcours ↓</a>
+          </div>
+          <ul class="hero-meta reveal">
+            <li data-i18n="hero.loc">📍 Marrakech, Maroc</li>
+            <li>🎓 FST Marrakech</li>
+          </ul>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="assets/ghizlane.jpg" alt="Ghizlane Fakkar" width="516" height="549">
+          </div>
+          <div class="badge badge-1" data-i18n="hero.badge1"><b>2</b> stages industriels</div>
+          <div class="badge badge-2" data-i18n="hero.badge2"><b>3</b> visites techniques</div>
+        </div>
+      </div>
+      <a href="#apropos" class="scroll-hint" aria-label="Scroll"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="apropos" class="section about">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="about.kicker">01 — À propos</p>
+        <div class="about-grid">
+          <h2 class="reveal" data-i18n="about.title">Là où la science fondamentale rencontre <em>l'industrie</em>.</h2>
+          <div class="about-text reveal">
+            <p data-i18n="about.p1">
+              Je suis élève ingénieure en Génie des Procédés et des Matériaux à la Faculté des Sciences
+              et Techniques de Marrakech. Ce domaine me passionne parce qu'il réunit les sciences
+              fondamentales et leurs applications concrètes : analyser et concevoir des procédés
+              industriels, et améliorer la performance des matériaux.
+            </p>
+            <p data-i18n="about.p2">
+              Je m'intéresse particulièrement à la métallurgie et à la corrosion — comprendre le
+              comportement des métaux et alliages pour les rendre plus durables. Mon objectif :
+              transformer les matières premières en produits de valeur, de façon efficace,
+              durable et respectueuse de l'environnement.
+            </p>
+            <p class="about-quote" data-i18n="about.quote">Sérieuse, motivée et appréciant le travail en équipe.</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><span class="num" data-count="2">0</span><span class="lbl" data-i18n="stats.1">Stages en industrie et laboratoire</span></div>
+          <div class="stat reveal"><span class="num" data-count="4">0</span><span class="lbl" data-i18n="stats.2">Projets d'ingénierie</span></div>
+          <div class="stat reveal"><span class="num" data-count="4">0</span><span class="lbl" data-i18n="stats.3">Engagements associatifs</span></div>
+          <div class="stat reveal"><span class="num" data-count="3">0</span><span class="lbl" data-i18n="stats.4">Langues parlées</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experiences" class="section experience">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="exp.kicker">02 — Expériences</p>
+        <h2 class="reveal" data-i18n="exp.title">Sur le terrain.</h2>
+
+        <div class="exp-list">
+          <article class="exp reveal">
+            <div class="exp-side">
+              <span class="exp-date" data-i18n="exp.1.date">Juil. – Août 2026</span>
+              <span class="exp-loc" data-i18n="exp.1.loc">Quartier Industriel, Marrakech</span>
+            </div>
+            <div class="exp-body">
+              <h3><span data-i18n="exp.intern">Stagiaire</span> — <span class="org">LABOSUD</span></h3>
+              <p class="exp-sub" data-i18n="exp.1.sub">Laboratoire d'analyses des sols</p>
+              <ul data-i18n="exp.1.list">
+                <li>Analyses mécaniques et physiques des sols pour évaluer leurs propriétés et leur comportement.</li>
+                <li>Essais de caractérisation : limites d'Atterberg et essai Proctor.</li>
+              </ul>
+              <div class="tags" data-i18n="exp.1.tags"><span>Caractérisation</span><span>Essais mécaniques</span><span>Géotechnique</span></div>
+            </div>
+          </article>
+
+          <article class="exp reveal">
+            <div class="exp-side">
+              <span class="exp-date" data-i18n="exp.2.date">Août 2025</span>
+              <span class="exp-loc">Jorf Lasfar, El Jadida</span>
+            </div>
+            <div class="exp-body">
+              <h3><span data-i18n="exp.intern">Stagiaire</span> — <span class="org">OCP Group</span></h3>
+              <p class="exp-sub" data-i18n="exp.2.sub">Office Chérifien des Phosphates · Stage d'initiation</p>
+              <ul data-i18n="exp.2.list">
+                <li>Compréhension du procédé de fabrication de l'acide phosphorique et de ses étapes industrielles.</li>
+                <li>Analyse de problèmes de corrosion et contribution à des solutions techniques adaptées.</li>
+                <li>Participation à des études d'optimisation des procédés pour améliorer l'efficacité de la production.</li>
+              </ul>
+              <div class="tags" data-i18n="exp.2.tags"><span>Corrosion</span><span>Génie des procédés</span><span>Optimisation</span></div>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="sub-title reveal" data-i18n="visits.title">Visites techniques</h3>
+        <div class="visits">
+          <div class="visit reveal">
+            <span class="visit-date" data-i18n="visits.1.date">Mai 2025</span>
+            <h4>SAFRAN Morocco</h4>
+            <p data-i18n="visits.1.sector">Aéronautique</p>
+          </div>
+          <div class="visit reveal">
+            <span class="visit-date" data-i18n="visits.2.date">Nov. 2025</span>
+            <h4 data-i18n="visits.2.name">Laboratoire d'Analyse Technique</h4>
+            <p data-i18n="visits.2.sector">Cité d'innovation Cadi Ayyad</p>
+          </div>
+          <div class="visit reveal">
+            <span class="visit-date" data-i18n="visits.3.date">Déc. 2025</span>
+            <h4>NAKHLA Plastique</h4>
+            <p data-i18n="visits.3.sector">Plasturgie</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projets" class="section projects">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="proj.kicker">03 — Projets</p>
+        <h2 class="reveal" data-i18n="proj.title">Projets d'ingénierie.</h2>
+        <div class="proj-grid">
+          <article class="proj reveal">
+            <div class="proj-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M8 34c6-2 8-10 16-10s10 8 16 10" /><circle cx="16" cy="18" r="3"/><circle cx="30" cy="14" r="2"/><circle cx="36" cy="22" r="2.5"/></svg>
+            </div>
+            <span class="proj-num">01</span>
+            <h3 data-i18n="proj.1.title">Corrosion des matériaux métalliques</h3>
+            <p data-i18n="proj.1.desc">Étude de la corrosion des matériaux métalliques et des moyens de protection pour prolonger leur durée de vie.</p>
+            <div class="tags" data-i18n="proj.1.tags"><span>Métallurgie</span><span>Électrochimie</span></div>
+          </article>
+          <article class="proj reveal">
+            <div class="proj-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M6 30h36l-4-8H14z"/><circle cx="14" cy="32" r="4"/><circle cx="34" cy="32" r="4"/><path d="M18 22l4-6h10l4 6"/></svg>
+            </div>
+            <span class="proj-num">02</span>
+            <h3 data-i18n="proj.2.title">Matériaux de l'industrie automobile</h3>
+            <p data-i18n="proj.2.desc">Étude des matériaux utilisés dans l'industrie automobile et de leurs critères de choix.</p>
+            <div class="tags" data-i18n="proj.2.tags"><span>Matériaux</span><span>Automobile</span></div>
+          </article>
+          <article class="proj reveal">
+            <div class="proj-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M4 26l18-4 6-14 4 2-3 11 15-3v4l-15 5 3 11-4 2-6-13-18-1z"/></svg>
+            </div>
+            <span class="proj-num">03</span>
+            <h3 data-i18n="proj.3.title">Matériau pour structure aéronautique</h3>
+            <p data-i18n="proj.3.desc">Démarche de sélection d'un matériau adapté à une structure aéronautique selon des critères de performance, de masse et de coût.</p>
+            <div class="tags" data-i18n="proj.3.tags"><span>Sélection des matériaux</span><span>Aéronautique</span></div>
+          </article>
+          <article class="proj reveal">
+            <div class="proj-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M4 24h6l4-6 6 12 4-6h6l4-6 6 12h4"/></svg>
+            </div>
+            <span class="proj-num">04</span>
+            <h3 data-i18n="proj.4.title">Synthèse du Nylon 6,6</h3>
+            <p data-i18n="proj.4.desc">Synthèse et préparation d'un matériau polymère, le Nylon 6,6 : de la réaction chimique à l'obtention du matériau.</p>
+            <div class="tags" data-i18n="proj.4.tags"><span>Polymères</span><span>Chimie</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="competences" class="section skills">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="skills.kicker">04 — Compétences</p>
+        <h2 class="reveal" data-i18n="skills.title">Boîte à outils.</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3 data-i18n="skills.charac">Caractérisation & contrôle</h3>
+            <ul class="chips" data-i18n="skills.charac.list">
+              <li>Caractérisation mécanique</li>
+              <li>Caractérisation thermique</li>
+              <li>DRX</li><li>RMN</li><li>IR</li><li>MEB</li><li>MET</li>
+              <li>Ressuage</li><li>Ultrasons</li><li>Radiographie</li>
+            </ul>
+            <p class="note" data-i18n="skills.charac.note">Contrôle non destructif (CND) et techniques d'analyse des matériaux.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 data-i18n="skills.quality">Qualité & amélioration continue</h3>
+            <ul class="chips" data-i18n="skills.quality.list">
+              <li>Ishikawa (5M)</li><li>5S</li><li>Pareto</li><li>Contrôle qualité</li>
+            </ul>
+            <h3 class="mt" data-i18n="skills.software">Logiciels</h3>
+            <ul class="chips" data-i18n="skills.software.list">
+              <li>OriginPro</li><li>Matlab</li><li>Python</li><li>CES EduPack</li>
+              <li>Excel avancé</li><li>Word</li><li>PowerPoint</li><li>LaTeX</li>
+            </ul>
+            <p class="note" data-i18n="skills.software.note">Notions : CATIA, ANSYS, Power BI.</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 data-i18n="skills.lang">Langues</h3>
+            <div class="lang">
+              <div class="lang-row"><span data-i18n="lang.ar">Arabe</span><span class="lvl" data-i18n="lang.ar.lvl">Langue maternelle</span></div>
+              <div class="bar"><i style="--w:100%"></i></div>
+            </div>
+            <div class="lang">
+              <div class="lang-row"><span data-i18n="lang.fr">Français</span><span class="lvl" data-i18n="lang.fr.lvl">Avancé</span></div>
+              <div class="bar"><i style="--w:85%"></i></div>
+            </div>
+            <div class="lang">
+              <div class="lang-row"><span data-i18n="lang.en">Anglais</span><span class="lvl">B2</span></div>
+              <div class="bar"><i style="--w:68%"></i></div>
+            </div>
+            <h3 class="mt" data-i18n="skills.soft">Savoir-être</h3>
+            <ul class="chips soft" data-i18n="skills.soft.list">
+              <li>Travail en équipe</li><li>Organisation</li><li>Communication</li><li>Rigueur</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="parcours" class="section education">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="edu.kicker">05 — Parcours</p>
+        <h2 class="reveal" data-i18n="edu.title">Formation.</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="t-date">2024 — 2027</span>
+            <h3 data-i18n="edu.1.title">Cycle d'Ingénieur — Génie des Matériaux et Procédés</h3>
+            <p data-i18n="edu.1.desc">Faculté des Sciences et Techniques, Marrakech · 3<sup>e</sup> année en 2026–2027</p>
+          </li>
+          <li class="reveal">
+            <span class="t-date">2022 — 2024</span>
+            <h3 data-i18n="edu.2.title">DEUG — Sciences de la matière, Chimie</h3>
+            <p data-i18n="edu.2.desc">Faculté des Sciences Semlalia, Marrakech</p>
+          </li>
+          <li class="reveal">
+            <span class="t-date">2022</span>
+            <h3 data-i18n="edu.3.title">Baccalauréat scientifique — Physique-Chimie</h3>
+            <p data-i18n="edu.3.desc">Lycée Imam El Boukhari, Chichaoua · option français</p>
+          </li>
+          <li class="reveal">
+            <span class="t-date">2016 — 2019</span>
+            <h3 data-i18n="edu.4.title">Diplôme de technicien — Électricité des bâtiments</h3>
+            <p>OFPPT, Chichaoua</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ENGAGEMENT -->
+    <section class="section engagement">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="eng.kicker">06 — Engagement</p>
+        <h2 class="reveal" data-i18n="eng.title">Au-delà des amphis.</h2>
+        <div class="eng-grid">
+          <article class="eng reveal">
+            <span class="eng-date" data-i18n="eng.1.date">Nov. 2024 — Fév. 2026</span>
+            <h3 data-i18n="eng.1.title">Secrétaire générale — Club IGMP</h3>
+            <p data-i18n="eng.1.desc">Organisation des réunions et comptes rendus, suivi administratif, coordination des membres et communication externe, planification d'événements.</p>
+          </article>
+          <article class="eng reveal">
+            <span class="eng-date" data-i18n="eng.2.date">Depuis fév. 2025</span>
+            <h3>Sourire de Marrakech</h3>
+            <p data-i18n="eng.2.desc">Actions sociales et humanitaires, collectes et distributions pour les personnes dans le besoin, événements caritatifs et éducatifs.</p>
+          </article>
+          <article class="eng reveal">
+            <span class="eng-date" data-i18n="eng.3.date">Jan. 2025 — Fév. 2026</span>
+            <h3>Youth Space Foundation</h3>
+            <p data-i18n="eng.3.desc">Projets de sensibilisation et d'engagement des jeunes, organisation d'activités éducatives et citoyennes.</p>
+          </article>
+          <article class="eng reveal">
+            <span class="eng-date" data-i18n="eng.4.date">Membre active</span>
+            <h3>RUMI Social Club</h3>
+            <p data-i18n="eng.4.desc">Membre de la cellule communication.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <p class="kicker reveal" data-i18n="contact.kicker">07 — Contact</p>
+        <h2 class="reveal" data-i18n="contact.title">Travaillons <em>ensemble</em>.</h2>
+        <p class="contact-lead reveal" data-i18n="contact.lead">
+          Je recherche un <strong>stage de fin d'études (PFE) de 4 à 6 mois</strong> en matériaux,
+          procédés, qualité ou contrôle. Mettons ma curiosité au service de vos projets.
+        </p>
+        <div class="contact-actions reveal">
+          <a class="contact-card" href="mailto:ghizlanefakkar191@gmail.com">
+            <span class="c-label">E-mail</span>
+            <span class="c-value">ghizlanefakkar191@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/ghizlane-fakkar-6a849932b/" target="_blank" rel="noopener">
+            <span class="c-label">LinkedIn</span>
+            <span class="c-value">ghizlane-fakkar ↗</span>
+          </a>
+        </div>
+        <button class="copy-btn reveal" data-copy="ghizlanefakkar191@gmail.com" data-i18n="contact.copy">Copier l'adresse e-mail</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ghizlane Fakkar · Marrakech</p>
+    <p class="credit"><span data-i18n="footer.credit">Site réalisé par</span> <a href="https://github.com/rania-web-studio" target="_blank" rel="noopener">rania-web-studio</a></p>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
